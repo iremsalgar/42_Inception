@@ -12,14 +12,14 @@ volumes:
     driver_opts:
       type: none
       o: bind
-      device: /home/isalgar/data/wp
+      device: /home/irem/data/wp
   db:
     driver: local
     name: db_volume
     driver_opts:
       type: none
       o: bind
-      device: /home/isalgar/data/db
+      device: /home/irem/data/db
 
 services:
  
